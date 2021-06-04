@@ -7,4 +7,4 @@ spring:
     banner-mode: OFF
     
 server:
-  port: 8001
+  port: 8001 
