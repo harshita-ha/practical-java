@@ -57,7 +57,7 @@ public class RandomCarGenerator implements CarService {
 			additionalFeaturesTemp.add(additionalFeatures.get(i));
 		}
 		
-		Car car=new Car(brand,type,color);
+		Car car=new Car(brand,color,type);
 		
 		car.setAvailable(available);
 		

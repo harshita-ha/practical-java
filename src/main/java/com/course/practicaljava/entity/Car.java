@@ -25,6 +25,13 @@ public class Car {
 	private Boolean available;
 	private String brand;
 	private String color;
+	private String serialNumber="SN0000001";
+	public String getSerialNumber() {
+		return serialNumber;
+	}
+	public void setSerialNumber(String serialNumber) {
+		this.serialNumber = serialNumber;
+	}
 	@JsonUnwrapped
 	private Engine engine;
 	@Field(type = FieldType.Date, format = DateFormat.date)
